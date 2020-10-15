@@ -4,62 +4,107 @@
 <title>Google from</title>
 <style type="text/css">
 
-.row{
-	margin-top: 10px;
-	margin-left: 50px;
-}
-.item-img{
-	width: 24%;
-	float: left;
-	margin-top: 50px;
-	margin-left: 50px;
-	
-}
 
-.item-img img{
-	width:100%;
-	height: 250px;
+ div#from{
+ 	display: block;
+ 	border: 1px solid black;
+ 	background-color:#E6E6FA;
+ }
+
+ div#navbar{
+ 	overflow: hidden;
+ 	background-color:#F5F5F5;
+ }
+
+ div#profile img{
+ 	border-radius:50%; 
+ 	width:150px ;
+ 	height: 120px;
+ 	margin-top: 60px;
+ 	float: left;
+ 	margin-left: 200px;
+ 	margin-right: 80px;
+ }
+
+div#text{
+	float: left;
+	padding-top:60px; 
+	line-height: 2px;
+
+}
+div#text p{
+	float: left;
+	padding-right: 20px;
 }
 
 .clear{
 	clear: both;
 }
 
+div#image{
+	margin-left: 200px;
+}
+
+ div#image img{
+	float: left;
+	width: 20%;
+	height:200px;
+	margin-top:50px; 
+	margin-left: 30px;
+}
+
+.clear{
+	clear: both;
+}
+div#image1{
+	margin-left: 230px;
+	margin-top: 30px;
+
+}
+
+div#image1 img{
+	float: left;
+	margin-right: 40px;
+	padding-bottom: 20px;
+}
+
 </style>
 
 </head>
 <body>
-
-	<div id="navbar" style="background-color:black;">
-		<ul style="list-style: none;color:#000000;">
+<div id="from">
+	<div id="navbar"  >
+		<ul style="list-style: none;">
 			<li style="float: left;"><a herf="" class="active">Instagram</a></li>
 			<li style="float: right; padding-right: 50px;"><a herf="">logout</a></li>
 		</ul>
 	</div>
-	
 
-	<div class="row">
-		<div class="item-img">
-			<img src="photo/beach1.jpg">
-		</div>
-		<div class="item-img">
-			<img src="photo/beachjpg.jpg">
-		</div>
-		<div class="item-img">
-			<img src="photo/kalaw.jpg">
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="item-img">
-			<img src="photo/rhilake.png">
-		</div>
-		<div class="item-img">
-			<img src="photo/download.jpg">
-		</div>
-		<div class="item-img">
-			<img src="photo/p.jpg">
-		</div>
+	<div id="profile"><img src="photo/pexels.webp"></div>
+	<div id="text">
+		<h3 >Thaw Zin Wai<button style="margin-left: 30px;">Edit Profile</button></h3>
+		<p>500 post</p>
+		<p>100follower</p>
+		<p>1000following</p>
 	</div>
 	<div class="clear"></div>
-
+	<div id="image">
+		<img src="photo/pexels1.jpg" >
+		
+		<img src="photo/beachjpg.jpg">
+		
+		<img src="photo/pexels2.jpg">
+	</div>
+		
+	<div class="clear"></div>
+	
+	<div id="image1">
+		<img src="photo/download.jpg" style="width: 20%;height: 200px">
+		
+		<img src="photo/pexels.webp" style="width: 20%;height: 200px">
+		
+		<img src="photo/p.jpg" style="width: 20%;height: 200px">
+		
+	</div>
+	<div class="clear"></div>
+</div>
